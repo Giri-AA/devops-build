@@ -1,0 +1,17 @@
+{
+  "name": "devops-build",
+  "version": "1.0.0",
+  "description": "React app for DevOps project",
+  "scripts": {
+    "start": "parcel build/index.html --port 3000",
+    "build": "parcel build build/index.html"
+  },
+  
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.10.0"
+  }
+}
